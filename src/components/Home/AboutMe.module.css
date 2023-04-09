@@ -1,4 +1,8 @@
 /*parte del formulario para que se vea bien en movil y escritorio*/
+@font-face {
+    font-family: 'Alkatra';
+    src: url('../../fonts/Alkatra-VariableFont_wght.ttf') format('truetype');
+}
 
 .sphere-container {
     width: 400px;
@@ -30,4 +34,24 @@
     to {
         transform: rotateX(360deg) rotateY(360deg);
     }
+}
+
+.p {
+    font-size: 1rem;
+    background-color: grey;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Alkatra';
+}
+
+.divAboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
