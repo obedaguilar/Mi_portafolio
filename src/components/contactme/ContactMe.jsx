@@ -21,9 +21,9 @@ const ContactMe = () => {
         <div>
             <div className={styles['columnas-2']}>
                 <div>
-                    <h2 className={styles['h2']}>Contactame</h2>
-                    <p>Si quieres contactarme, puedes hacerlo a traves de mis redes sociales</p>
-                    <form >
+                    <h2 className={styles.h2}>Contactame</h2>
+                    <p className={styles.p}>Si quieres contactarme, puedes hacerlo a traves de mis redes sociales</p>
+                    <form className={styles.p} >
                         <div>
                             <label htmlFor="name">
                                 Nombre:

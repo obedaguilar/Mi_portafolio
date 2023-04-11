@@ -38,20 +38,50 @@
 
 .p {
     font-size: 1rem;
-    background-color: grey;
     color: whitesmoke;
     border-radius: 10px;
     padding: 10px;
     margin-left: 20%;
     margin-right: 20%;
     font-family: 'Alkatra';
+    margin-bottom: 10px;
 }
 
-.divAboutme {
+.div-1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: auto;
+    background-color: #1D1D1D;
+    padding: 7%;
 
+}
+
+
+
+.h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: cyan;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 600px) {
+    .div-1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+        background-color: #1D1D1D;
+    }
+    .p{
+        font-size: 14px;
+        color: whitesmoke;
+        max-width: 600px;
+    }
+  
 }
