@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding: 7%;
+    padding: 2%;
     text-align: center;
 }
 
@@ -66,6 +66,20 @@
 .img-1:hover {
     transform: scale(1.1);
 }
+.img-2 {
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    transition: 0.5s;
+    animation: animacion 2s ease;
+    text-align: center;
+
+
+}
+
+.img-2:hover {
+    transform: scale(1.1);
+}
 
 @keyframes animacion {
     0% {
@@ -93,4 +107,18 @@
     margin-right: 20%;
     font-family: 'Alkatra';
     margin-bottom: 10px;
+}
+.a{
+    font-size: 1rem;
+    color: yellow;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Alkatra';
+    margin-bottom: 10px;
+}
+.a:hover{
+    color: cyan;
+    transition: 0.5s;
 }

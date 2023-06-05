@@ -9,7 +9,10 @@ const Myfooter = () => {
     return (
         <>
             <div className={styles['div-footer']}>
-                <div><ul className='flex justify-center items-center'>
+            <h2 className={styles.h2}>Contactame</h2>
+                <div>
+                    
+                    <ul className='flex justify-center items-center'>
                     <li className='m-2'>         
                         <a href='https://www.facebook.com/obedaguilarvazquez/'target='_blank'><FacebookRoundedIcon fontSize="large" /></a></li>
                     <li className='m-2'><a href='https://www.instagram.com/obedaguilarv/'target='_blank'><InstagramIcon fontSize="large" /></a></li>

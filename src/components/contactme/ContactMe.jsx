@@ -21,8 +21,8 @@ const ContactMe = () => {
         <div>
             <div className={styles['columnas-2']}>
                 <div>
-                    <h2 className={styles.h2}>Contactame</h2>
-                    <p className={styles.p}>Si quieres contactarme, puedes hacerlo a traves de mis redes sociales</p>
+                    {/* <h2 className={styles.h2}>Contactame</h2> */}
+                    {/* <p className={styles.p}>Si quieres contactarme, puedes hacerlo a traves de mis redes sociales</p>
                     <form className={styles.p} >
                         <div>
                             <label htmlFor="name">
@@ -50,7 +50,7 @@ const ContactMe = () => {
                         <div>
                             <input type="submit" value="Submit" />
                         </div>
-                    </form>
+                    </form> */}
                 </div>
                 <div>
                     <LoadScript googleMapsApiKey='AIzaSyBQKmwIWd8iU93SrNaKvKJ8IhSwvfybpPs'>
